@@ -13,7 +13,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 gme-gradient rounded-full"></div>
-              <span className="text-xl font-bold">GME Remit</span>
+              <span className="text-xl font-bold">Global Money Express</span>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
               <a href="#culture" className="text-sm font-medium hover:text-primary transition-colors">회사문화</a>
@@ -33,8 +33,8 @@ export default function Home() {
             함께 만들어갈 인재를 찾습니다
           </h1>
           <p className="text-xl mb-8 opacity-90">
-            대한민국 No.1 송금 서비스 GME Remit에서<br />
-            혁신적인 핀테크 솔루션을 만들어나갈 동료를 기다립니다
+            대한민국 No.1 송금 서비스 Global Money Express에서<br />
+            혁신적인 글로벌 송금 솔루션을 만들어나갈 동료를 기다립니다
           </p>
           <div className="flex justify-center space-x-4">
             <Button size="lg" variant="secondary">
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">GME의 핵심 가치</h2>
             <p className="text-xl text-muted-foreground">
-              혁신과 신뢰를 바탕으로 글로벌 금융 서비스의 새로운 기준을 만들어갑니다
+              안전하고 신속한 글로벌 송금 서비스로 고객의 소중한 자산을 안전하게 전달합니다
             </p>
           </div>
 
@@ -63,9 +63,9 @@ export default function Home() {
                 <div className="w-16 h-16 gme-gradient rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-2xl">🚀</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3">혁신적 사고</h3>
+                <h3 className="text-xl font-bold mb-3">기술 혁신</h3>
                 <p className="text-muted-foreground">
-                  새로운 기술과 아이디어로<br />금융 서비스의 한계를 뛰어넘습니다
+                  최첨단 핀테크 기술로<br />송금 서비스의 새로운 기준을 제시합니다
                 </p>
               </CardContent>
             </Card>
@@ -87,9 +87,9 @@ export default function Home() {
                 <div className="w-16 h-16 gme-gradient rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-2xl">⚡</span>
                 </div>
-                <h3 className="text-xl font-bold mb-3">속도와 효율</h3>
+                <h3 className="text-xl font-bold mb-3">신속 정확</h3>
                 <p className="text-muted-foreground">
-                  빠르고 정확한 서비스로<br />고객의 시간을 소중히 합니다
+                  실시간 송금 처리로<br />고객의 소중한 시간을 절약합니다
                 </p>
               </CardContent>
             </Card>
@@ -140,7 +140,7 @@ export default function Home() {
                   <CardContent>
                     <div className="space-y-3">
                       <p className="text-sm text-muted-foreground">
-                        사용자 경험을 최우선으로 하는 웹 서비스 개발
+                        글로벌 송금 서비스 웹 플랫폼 개발 및 사용자 경험 최적화
                       </p>
                       <div className="flex flex-wrap gap-2">
                         <Badge variant="secondary">React</Badge>
@@ -167,7 +167,7 @@ export default function Home() {
                   <CardContent>
                     <div className="space-y-3">
                       <p className="text-sm text-muted-foreground">
-                        대용량 트래픽을 처리하는 안정적인 백엔드 시스템 구축
+                        송금 처리 시스템 및 결제 인프라 백엔드 개발
                       </p>
                       <div className="flex flex-wrap gap-2">
                         <Badge variant="secondary">Java</Badge>
@@ -310,7 +310,7 @@ export default function Home() {
                   <CardContent>
                     <div className="space-y-3">
                       <p className="text-sm text-muted-foreground">
-                        글로벌 파트너십 구축 및 사업 개발
+                        해외 송금 파트너사 발굴 및 글로벌 네트워크 확장
                       </p>
                       <div className="flex flex-wrap gap-2">
                         <Badge variant="secondary">Partnership</Badge>
@@ -483,7 +483,15 @@ export default function Home() {
                 <p className="text-muted-foreground mb-4">서류 합격 후 1주 이내 면접 일정 조율</p>
 
                 <h4 className="font-semibold mb-2">🎉 최종 발표</h4>
-                <p className="text-muted-foreground">면접 후 3일 이내 최종 결과 통보</p>
+                <p className="text-muted-foreground mb-4">면접 후 3일 이내 최종 결과 통보</p>
+              </div>
+            </div>
+            <div className="mt-8 pt-6 border-t border-gray-200">
+              <h4 className="font-semibold mb-3 text-center">📞 채용 문의</h4>
+              <div className="text-center text-sm text-muted-foreground space-y-1">
+                <p>📧 corporate@gmeremit.com</p>
+                <p>📞 02-1588-6864 (외국인 관련 문의)</p>
+                <p>📞 02-1811-2961 (내국인 관련 문의)</p>
               </div>
             </div>
           </div>
@@ -613,7 +621,7 @@ export default function Home() {
             함께 성장할 준비가 되셨나요?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            GME Remit에서 글로벌 핀테크의 미래를 만들어가세요
+            Global Money Express에서 글로벌 송금 서비스의 미래를 만들어가세요
           </p>
           <div className="flex justify-center space-x-4">
             <Button size="lg" variant="secondary">
@@ -633,12 +641,15 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-6 h-6 gme-gradient rounded-full"></div>
-                <span className="font-bold text-lg">GME Remit</span>
+                <span className="font-bold text-lg">Global Money Express</span>
               </div>
               <p className="text-gray-400">
                 대한민국 No.1 송금 서비스<br />
-                글로벌 금융의 새로운 기준
+                글로벌 송금의 새로운 기준
               </p>
+              <div className="mt-4 text-xs text-gray-500">
+                <p>CEO: 화성종 | 사업자등록번호: 294-86-00614</p>
+              </div>
             </div>
             <div>
               <h4 className="font-semibold mb-4">채용 정보</h4>
@@ -653,20 +664,24 @@ export default function Home() {
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#culture" className="hover:text-white transition-colors">회사문화</a></li>
                 <li><a href="https://www.gmeremit.com" className="hover:text-white transition-colors">공식 웹사이트</a></li>
+                <li><a href="https://www.facebook.com/GMEKorea" className="hover:text-white transition-colors">페이스북</a></li>
+                <li><a href="https://www.instagram.com/gmekorea/" className="hover:text-white transition-colors">인스타그램</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">연락처</h4>
               <ul className="space-y-2 text-gray-400">
-                <li>📧 careers@gmeremit.com</li>
-                <li>📞 02-1234-5678</li>
-                <li>📍 서울시 강남구</li>
+                <li>📧 corporate@gmeremit.com</li>
+                <li>📞 02-1588-6864 (외국인)</li>
+                <li>📞 02-1811-2961 (내국인)</li>
+                <li>📍 서울시 영등포구 영등포로 150</li>
+                <li>📍 생각공장빌딩 B동 910호</li>
               </ul>
             </div>
           </div>
           <Separator className="my-8 bg-gray-700" />
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 GME Remit. All rights reserved.</p>
+            <p>&copy; 2024 Global Money Express Co., Ltd. All rights reserved.</p>
           </div>
         </div>
       </footer>
